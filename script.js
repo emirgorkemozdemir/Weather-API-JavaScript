@@ -33,6 +33,7 @@ try {
     empty_array.push(value['current']['wind_kph']);
     empty_array.push(value['location']['name']);
     empty_array.push(value['location']['country']);
+    empty_array.push(value['location']['localtime']);
 	console.log(value);
     console.log(empty_array);
 
